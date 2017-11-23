@@ -1,0 +1,9 @@
+Download trained model from: 
+https://onedrive.live.com/download?cid=B667AF4A4E4BA251&resid=B667AF4A4E4BA251%2141348&authkey=ANF7MA1OuYoB0c4
+
+Make sure name is "imagenet-vgg-verydeep-19.mat"
+
+Following the original NST paper (https://arxiv.org/abs/1508.06576), we will use the VGG network. 
+Specifically, we'll use VGG-19, a 19-layer version of the VGG network. 
+This model has already been trained on the very large ImageNet database, and thus has learned to 
+recognize a variety of low level features (at the earlier layers) and high level features (at the deeper layers).
