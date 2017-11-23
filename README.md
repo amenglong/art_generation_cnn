@@ -39,4 +39,7 @@ Saved in <b>/output</b> folder
 8. Run the style image through the VGG19 model and compute the style cost
 9. Compute the total cost
 10. Define the optimizer and the learning rate
-11. Initialize the TensorFlow graph and run it for a large number of iterations, updating the generated image at every step.
+11. Initialize the TensorFlow graph and run it for a large number of iterations, updating the generated image at every step:
+
+<br/>
+<p align="center"><img src="https://user-images.githubusercontent.com/24521991/33166545-94c4cb88-d075-11e7-91f6-733880748433.png" width="600"></p>
