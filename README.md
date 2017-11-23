@@ -25,6 +25,7 @@ For every new image:
 ### Generated image
 Saved in <b>/output</b> folder
 
+<br/>
 
 ## How does it work?
 
