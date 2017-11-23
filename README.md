@@ -24,3 +24,18 @@ For every new image:
 
 ### Generated image
 Saved in <b>/output</b> folder
+
+
+## How does it work?
+
+1. Create an Interactive Session
+2. Load the content image
+3. Load the style image
+4. Randomly initialize the image to be generated
+5. Load the VGG19 model
+6. Build the TensorFlow graph:
+7. Run the content image through the VGG19 model and compute the content cost
+8. Run the style image through the VGG19 model and compute the style cost
+9. Compute the total cost
+10. Define the optimizer and the learning rate
+11. Initialize the TensorFlow graph and run it for a large number of iterations, updating the generated image at every step.
